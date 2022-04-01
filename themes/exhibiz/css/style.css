@@ -5118,7 +5118,6 @@ width:100%;
 
 .grid {
   width:100%;
-}
 
 	margin:5px;
 }
@@ -5384,7 +5383,7 @@ a:hover, a:active, a:focus, img{
 }
 
 .de-flex-wrap{
-	background: 
+	
 	display: flex;
 	justify-content: space-between;
 }
@@ -7642,4 +7641,23 @@ display:table;
 	.grid-item .pf_title{
 		display:none;
 	}
+	}
+	}
+	.registerbtn:hover{
+		background-color: #ec167f;
+		color: white !important;
+	}
+	.logo{
+		height:80px;
+	}
+	@media (max-width:1000px) {
+		.mmrbtn{
+			display: flex !important;
+		}
+		.registerbtn{
+			display: none !important;
+		}
+		.navb{
+			display: block !important;
+		}
 	}
