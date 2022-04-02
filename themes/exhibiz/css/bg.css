@@ -12,7 +12,7 @@
 
 /* general  for subheader */
 #subheader{
-background:url(../images/background/subheader.jpg)top fixed;
+background:url(../images/background/subheader.jpg) top fixed;
 }
 
 /* background settings for page subheader */
@@ -97,7 +97,7 @@ background:url(../images/background/subheader.jpg)top fixed;
 
 
 /* background settings for side navigation subheader */
-.de-navbar-left.de_light #subheader{background:url(../images/background/bg-subheader-sn.jpg)top fixed;}
+.de-navbar-left.de_light #subheader{background:url(../images/background/bg-subheader-sn.jpg) top fixed;}
 .de-navbar-left.de_light.page-projects #subheader{background-image:url(../images/background/subheader-1-sn.jpg);}
 .de-navbar-left.de_light.page-services #subheader{background-image:url(../images/background/subheader-2-sn.jpg);}
 .de-navbar-left.de_light.page-about #subheader{background-image:url(../images/background/subheader-3-sn.jpg);}
