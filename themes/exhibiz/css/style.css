@@ -7661,3 +7661,13 @@ display:table;
 			display: block !important;
 		}
 	}
+header.smaller:not(.header-bottom):not(.side-header) {
+    height: 89px;
+    padding-top: 4px;
+    background: #101010;
+}
+header.smaller:not(.header-bottom):not(.side-header) {
+    height: 89px;
+    padding-top: 4px;
+    background: #101010;
+}
