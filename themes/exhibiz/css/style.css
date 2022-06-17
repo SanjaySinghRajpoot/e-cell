@@ -7671,3 +7671,12 @@ header.smaller:not(.header-bottom):not(.side-header) {
     padding-top: 4px;
     background: #101010;
 }
+.de-team-list img {
+    width: 100%;
+    height: 80%;
+}
+.pf_full_width img {
+    float: left;
+    width: 100%;
+    height: 295px;
+}
