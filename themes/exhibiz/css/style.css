@@ -7677,7 +7677,8 @@ header.smaller:not(.header-bottom):not(.side-header) {
 
 .de-team-list img {
     width: 100%;
-    height: 80%;
+    height: 300px;
+	border-radius: 100%;
 }
 .pf_full_width img {
     float: left;
@@ -7685,3 +7686,265 @@ header.smaller:not(.header-bottom):not(.side-header) {
     height: 295px;
 }
 
+#welcomeScreen h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Inter", sans-serif;
+  margin: 50px;
+  margin-top: 2rem;
+  height: fit-content;
+}
+
+#welcomeScreen h2:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 40px;
+  background-color: #620df6;
+  margin: 20px auto;
+}
+
+#welcomeScreen h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  margin: 15px;
+}
+
+#welcomeScreen p {
+  font-family: "Poppins", sans-serif;
+}
+
+#tagline {
+  display: flex;
+  justify-content: space-around;
+}
+
+#tagline .tags {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 25%;
+}
+
+#tagline .tags img {
+  height: 7rem;
+  margin: 10px;
+}
+
+/* Responsiveness */
+
+@media (max-width: 900px) {
+  #welcomeScreen h2 {
+    font-size: 2.4rem;
+  }
+  #tagline {
+    display: flex;
+    flex-direction: column;
+  }
+  #tagline .tags {
+    padding: 10px 20%;
+    width: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  #welcomeScreen h2 {
+    font-size: 1.7rem;
+    margin: 40px;
+    margin-bottom: 25px;
+  }
+  #tagline .tags {
+    padding: 5px 15%;
+    margin: 10px;
+    width: auto;
+  }
+}
+#aGist {
+  position: relative;
+  margin: 60px auto 100px;
+  max-width: 1100px;
+  width: 95vw;
+  height: 85vh;
+}
+
+#aGist .item {
+  border-radius: 0.7rem;
+  margin: 10px;
+  background: no-repeat url("../images/pexels-ruslan-burlaka-140945.jpg");
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#aGist .group {
+  position: relative;
+  display: flex;
+}
+
+.upper {
+  width: 100%;
+}
+
+#aGist .a {
+  width: 29%;
+  height: 57vh;
+  margin-top: 8vh;
+  box-shadow: inset 0 0 0 100vmax rgba(196, 196, 196, 0.7);
+}
+
+#aGist .b {
+  width: 42%;
+  height: 45vh;
+  box-shadow: inset 0 0 0 100vmax rgba(98, 13, 246, 0.7);
+  color: white;
+}
+
+#aGist .c {
+  width: 29%;
+  height: 45vh;
+  box-shadow: inset 0 0 0 100vmax rgba(196, 196, 196, 0.7);
+}
+
+.lower {
+  width: 75%;
+  left: 29%;
+  top: -18vh;
+}
+
+#aGist .d {
+  width: 32%;
+  height: 24vh;
+  box-shadow: inset 0 0 0 100vmax rgba(165, 166, 246, 0.7);
+}
+
+#aGist .e {
+  width: 40%;
+  height: 40vh;
+  box-shadow: inset 0 0 0 100vmax rgba(98, 13, 246, 0.7);
+  color: white;
+}
+
+#aGist .f {
+  width: 28%;
+  height: 18vh;
+  box-shadow: inset 0 0 0 100vmax rgba(165, 166, 246, 0.7);
+  margin-right: 3vw;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+  border-radius: 0.7rem;
+  opacity: 0;
+  transition: all 0.6s ease-in;
+  color: white;
+}
+
+.item:hover .overlay {
+  opacity: 1;
+}
+
+#aGistMob {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  /* Code for tiles on mobile will go here   */
+  #aGist {
+    display: none;
+  }
+  #aGistMob {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 30px;
+    display: block;
+  }
+  .group {
+    display: flex;
+    align-items: center;
+  }
+  .item {
+    height: 100px;
+    width: 100px;
+    background: no-repeat url("../images/pexels-ruslan-burlaka-140945.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .aM {
+    height: 18vh;
+    width: 30%;
+    margin-left: 0px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: inset 0 0 0 100vmax rgba(165, 166, 246, 0.7);
+  }
+  .bM {
+    height: 23vh;
+    width: 60%;
+    box-shadow: inset 0 0 0 100vmax rgba(196, 196, 196, 0.7);
+  }
+  .group.two {
+    justify-content: space-between;
+  }
+  .cM {
+    height: 20vh;
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 5vh;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: inset 0 0 0 100vmax rgba(165, 166, 246, 0.7);
+  }
+  .dM {
+    width: 70%;
+    height: 27vh;
+    box-shadow: inset 0 0 0 100vmax rgba(98, 13, 246, 0.7);
+    color: white;
+  }
+  .eM {
+    height: 20vh;
+    width: 12%;
+    margin-right: 0px;
+    margin-bottom: 5vh;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: inset 0 0 0 100vmax rgba(165, 166, 246, 0.7);
+  }
+  .group.three {
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .fM {
+    width: 30%;
+    height: 18vh;
+    box-shadow: inset 0 0 0 100vmax rgba(196, 196, 196, 0.7);
+  }
+  .gM {
+    width: 65%;
+    height: 28vh;
+    box-shadow: inset 0 0 0 100vmax rgba(98, 13, 246, 0.7);
+    color: white;
+  }
+}
