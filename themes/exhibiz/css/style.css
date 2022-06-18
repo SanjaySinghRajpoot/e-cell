@@ -7973,6 +7973,25 @@ header.smaller:not(.header-bottom):not(.side-header) {
     overflow: hidden;
 }
 
+.tparrows{
+	display: none !important;
+}
+.pf_full_width img {
+    float: left;
+    width: 100%;
+    height: 295px;
+    padding: 0;
+    border-radius: 25px;
+}
+.picframe {
+    position: relative;
+    border: 5px solid white;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+
 @media (max-width: 760px) {
 	#cent-gallery{
 		margin-left: 5rem;
@@ -7980,3 +7999,4 @@ header.smaller:not(.header-bottom):not(.side-header) {
 	
 	}
 }
+
