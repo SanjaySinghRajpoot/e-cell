@@ -409,7 +409,7 @@
                         </div>
                     </div>
                 </section>
-			<section id="section-about" data-bgimage="url(images-event/bg/1.png) fixed no-repeat">
+			<!-- <section id="section-about" data-bgimage="url(images-event/bg/1.png) fixed no-repeat">
 				<div class="wm wm-border dark wow fadeInDown">Vision</div>
                     <div class="container">
                         <div class="row align-items-center">
@@ -437,8 +437,8 @@
                             </div>
                         </div>
                     </div>
-                </section>
-			<section id="section-about" data-bgimage="url(images-event/bg/1.png) fixed no-repeat">
+                </section> -->
+			<!-- <section id="section-about" data-bgimage="url(images-event/bg/1.png) fixed no-repeat">
 				<div class="wm wm-border dark wow fadeInDown">Mission</div>
                     <div class="container">
                         <div class="row align-items-center">
@@ -461,7 +461,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
 				<!-- section begin -->
             <!-- <section id="section-features">
 				<div class="wm wm-border dark wow fadeInDown ">features</div>
@@ -551,11 +551,13 @@
             <!-- section close -->
 			<!-- section begin -->
             <section id="section-schedule" aria-label="section-services-tab" data-bgimage="url(images-event/bg/2.png) fixed center no-repeat">
-                <div class="wm wm-border dark wow fadeInDown ">Team</div>
+
+                <div class="wm wm-border dark wow fadeInDown ">People</div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
-                            <h1>Our Team</h1>
+                            <h1>Team Members</h1>
+
                             <div class="separator"><span><i class="fa fa-square"></i></span></div>
                             <div class="spacer-single"></div>
                         </div>
@@ -1110,6 +1112,7 @@
                         <div class="separator"><span><i class="fa fa-square"></i></span></div>
                         <div class="spacer-single"></div>
                     </div>
+                <div id="cent-gallery">
                 <div id="gallery" class="gallery zoom-gallery full-gallery de-gallery pf_full_width wow fadeInUp" data-wow-delay=".3s">
                     <!-- gallery item -->
                     <div class="item residential">
@@ -1126,6 +1129,7 @@
                         </div>
                     </div>
                     <!-- close gallery item -->
+
                     <!-- gallery item -->
                     <div class="item hospitaly">
                         <div class="picframe">
@@ -1143,9 +1147,13 @@
                     <!-- close gallery item -->
                    
                 </div>
+            </div>
+            </div>
+                <br>
                 <div id="gallery" class="gallery zoom-gallery full-gallery de-gallery pf_full_width wow fadeInUp" data-wow-delay=".3s">
                   
                     <!-- gallery item -->
+                    <div id="cent-gallery">
                     <div class="item hospitaly">
                         <div class="picframe">
                             <a href="themes/exhibiz/images-event/activities/RajShamani.73d789b0.jpg" >
@@ -1174,8 +1182,10 @@
                             </a>
                         </div>
                     </div>
+                    </div>
                     <!-- close gallery item -->
                 </div>
+                
             </section>
             <!-- section close -->
 			<!-- section begin -->
@@ -1192,6 +1202,19 @@
                             <form name="contactForm" id='contact_form' method="post" action='themes/exhibiz/email.html'>
                                 <div class="row">
                                     <div class="col-md-6">
+                                        <div id='message_error' class='error'>Please enter your message.</div>
+                                        <div>
+                                            <!-- <textarea name='message' id='message' class="form-control" placeholder="Additional Message"></textarea> -->
+                                            <h2 style: "text-align: center;"><i class="fa fa-map-marker" aria-hidden="true"></i> Walk In </h2>
+                                            <br>
+                                            <p style: "text-align: center;"> E-Cell Office, E-block, IET-DAVV Campus</p> 
+                                            <h2><i class="fa fa-phone" aria-hidden="true"></i> Give us a ring </h2>
+                                            <p><b> Pranav Gupta </b></p>
+                                            <p> +91 756 642 8909</p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-6">
                                         <div id='name_error' class='error'>Please enter your name.</div>
                                         <div>
                                             <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
@@ -1204,19 +1227,13 @@
                                         <div>
                                             <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div id='message_error' class='error'>Please enter your message.</div>
-                                        <div>
-                                            <textarea name='message' id='message' class="form-control" placeholder="Additional Message"></textarea>
+                                        <div class="col-md-12 text-center">
+                                            <p id='submit'>
+                                                <input type='submit' id='send_message' value='Send' class="btn btn-line">
+                                            </p>
+                                            <div id='mail_success' class='success'>Your message has been sent successfully.</div>
+                                            <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-12 text-center">
-                                        <p id='submit'>
-                                            <input type='submit' id='send_message' value='Send' class="btn btn-line">
-                                        </p>
-                                        <div id='mail_success' class='success'>Your message has been sent successfully.</div>
-                                        <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
                                     </div>
                                 </div>
                             </form>
@@ -1278,8 +1295,13 @@
             <div class="container">
                 <div class="row align-items-middle">
                     <div class="col-md-3">
-                        <!-- <img src="themes/exhibiz/images-event/logo.png" class="logo-small" alt=""><br> -->
+                        <img class="logo" style="background-color: rgb(255, 251, 251); border-radius:50%;" src="themes/exhibiz/images-event/ecell_logo.png" alt="">
                     </div>
+                    <!-- <div class="col-md-6">
+                        <a href="index.html">
+                            <img class="logo" style="background-color: rgb(255, 251, 251); border-radius:50%;" src="themes/exhibiz/images-event/ecell_logo.png" alt="">
+                        </a>
+                    </div> -->
                     <div class="col-md-6">
                         &copy; Copyright 2022 - E-Cell - THINK | FEEL | COLLABORATE <span class="id-color"></span>
                     </div>
