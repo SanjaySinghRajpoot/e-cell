@@ -7957,8 +7957,10 @@ header.smaller:not(.header-bottom):not(.side-header) {
     font-family: sans-serif;
 }
 
+
+
 #cent-gallery{
-	margin-left: 20rem;
+	margin-left: 25rem;
     width: 101%;
 
 }
@@ -7970,6 +7972,7 @@ header.smaller:not(.header-bottom):not(.side-header) {
     width: 101%;
     overflow: hidden;
 }
+
 .tparrows{
 	display: none !important;
 }
@@ -7987,3 +7990,13 @@ header.smaller:not(.header-bottom):not(.side-header) {
     border-radius: 25px;
     margin: 15px;
 }
+
+
+@media (max-width: 760px) {
+	#cent-gallery{
+		margin-left: 5rem;
+		width: 101%;
+	
+	}
+}
+
