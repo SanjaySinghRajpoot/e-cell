@@ -185,3 +185,17 @@ for (student of student2019) {
                                         </div>`;
   div2019.innerHTML += element;
 }
+const items=document.getElementsByClassName("io");
+const overlays=document.getElementsByClassName("overlay")
+for(let i=0;i<items.length;i++){
+  console.log(items[i])
+  console.log(overlays[i])
+  items[i].onmouseover=()=>{
+    console.log("over");
+    overlays[i].style.opacity="1";
+  };
+  items[i].onmouseleave = () => {
+    console.log("out");
+    overlays[i].style.opacity = "0";
+  };
+}

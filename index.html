@@ -61,7 +61,8 @@
 	<link rel="stylesheet" href="themes/exhibiz/css/font-style.css" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body id="homepage">
     <div id="wrapper">
@@ -93,7 +94,7 @@
                         <!-- logo begin -->
                         <div id="logo" style="align-self: baseline;">
                             <a href="index.html">
-                                <img class="logo" style="background-color: rgb(255, 251, 251); border-radius:45%;" src="themes/exhibiz/images-event/ecell_logo.png" alt="">
+                                <img class="logo"  src="themes/exhibiz/images-event/Ecell Logo (W).png" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -134,14 +135,7 @@
                             <!--  BACKGROUND IMAGE -->
 							<img alt="" class="rev-slidebg" data-bgparallax="0" src="themes/exhibiz/images-event/NEW2.00456170.jpg">
                         </li>
-						<li data-transition="random-premium" data-slotamount="10" data-masterspeed="200" data-thumb="">
-                            <!--  BACKGROUND IMAGE -->
-							<img alt="" class="rev-slidebg" data-bgparallax="0" src="themes/exhibiz/images-event/trial5.a92fe8fa.jpg">
-                        </li>
-						<li data-transition="random-premium" data-slotamount="10" data-masterspeed="200" data-thumb="">
-                            <!--  BACKGROUND IMAGE -->
-							<img alt="" class="rev-slidebg" data-bgparallax="0" src="themes/exhibiz/images-event/ESum.cb41d7af.jpg">
-                        </li>
+						
                     </ul>
 					<div style="" class="tp-static-layers">
                             <div
@@ -215,11 +209,11 @@
                             >
                                 <div class="spacer-single"></div>
                                     <div class="d-lg-flex justify-content-center sm-hide">
-                                        <div class="h6 padding10 pt0 pb0" style="color:red !important;">Think</div>
-                                        <div class="h6 padding10 pt0 pb0" style="color:red !important;">|</div>
-                                        <div class="h6 padding10 pt0 pb0" style="color:red !important;"> Feel</div>
-                                        <div class="h6 padding10 pt0 pb0" style="color:red !important;">|</div>
-                                        <div class="h6 padding10 pt0 pb0" style="color:red !important;">Collaborate</div>
+                                        <div class="h6 padding10 pt0 pb0" style="color:black !important">Think</div>
+                                        <div class="h6 padding10 pt0 pb0" style="color:black !important">|</div>
+                                        <div class="h6 padding10 pt0 pb0" style="color:black !important"> Feel</div>
+                                        <div class="h6 padding10 pt0 pb0" style="color:black !important">|</div>
+                                        <div class="h6 padding10 pt0 pb0" style="color:black !important">Collaborate</div>
                                     </div>
                             </div>
                             <div
@@ -284,7 +278,10 @@
 			<!-- section begin -->
 			<section id="section-about" data-bgimage="url(images-event/bg/1.png) fixed no-repeat">
   <!-- ===== Welcome to E-Cell IITH (Anish) ===== -->
-  <div id="welcomeScreen">
+  <div id="welcomeScreen" style="    display: flex;
+    justify-content: center;
+    background-size: cover;
+    flex-direction: column;">
     <h2>Welcome To E-Cell IET DAVV</h2>
     <div id="tagline">
       <div class="tags">
@@ -318,9 +315,9 @@
 
     <div id="aGist">
       <div class="upper group">
-        <div class="item a">
+        <div class="item a io">
           Vision
-          <div class="overlay">
+          <div class="overlay" data-aos="fade-up">
             Entrepreneurship Cell, IIT Hyderabad targets to stimulate and
             encourage entrepreneurship and innovation both within IIT
             Hyderabad and beyond. After all, understanding the value of
@@ -329,9 +326,9 @@
             only way to utilize their latent inventive potential
           </div>
         </div>
-        <div class="item b">
-          Global Network
-          <div class="overlay">
+        <div class="item b io">
+          Mission
+          <div class="overlay" data-aos="fade-up">
             We aim to facilitate start-ups of IITH with the right connection
             based on the nature of start-up, industry, mentoring requirements.
             This initiative will help start-ups to raise funds, find advisors,
@@ -339,9 +336,9 @@
             step ahead towards creating a high-impact business.
           </div>
         </div>
-        <div class="item c">
+        <div class="item c io">
           E-Networking
-          <div class="overlay">
+          <div class="overlay" data-aos="fade-up">
             Building a long-term strong PAN-India community of
             entrepreneurship and innovation promoting student bodies for
             sharing resources, utilizing opportunities and providing guidance
@@ -350,12 +347,12 @@
         </div>
       </div>
       <div class="lower group">
-        <div class="item d"></div>
-        <div class="item e">
-          Idea <br />
-          Validation <br />
-          Camp
-          <div class="overlay">
+        <div class="item d">NEC</div>
+        <div class="item e io">
+          Incubation <br />
+          Center <br />
+          
+          <div class="overlay" data-aos="fade-up">
             A platform for budding entrepreneurs to get their innovative ideas
             evaluated by successful entrepreneurs, VCs, and market leaders.
           </div>
@@ -1414,6 +1411,10 @@
                 disableProgressBar: "on"
             });
         });
+        
+    </script>
+    <script>
+        AOS.init();
     </script>
 	<script>
     $(window).on("load", function(){
