@@ -45,7 +45,7 @@ let student2020 = [
     ln: "pranav3105/",
     name: "Pranav Gupta",
     post: "Design Lead, E-Cell",
-    image: "team2/PranavSir.png",
+    image: "Team2/PranavSir.png",
   },
   {
     ln: "divanshu-basantani-91537517a/",
