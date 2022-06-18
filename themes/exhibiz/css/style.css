@@ -7948,3 +7948,12 @@ header.smaller:not(.header-bottom):not(.side-header) {
     color: white;
   }
 }
+.de-team-list p.lead {
+   
+    font-family: sans-serif;
+}
+#section-portfolio {
+    background: #101010 !important;
+    width: 101%;
+    overflow: hidden;
+}
