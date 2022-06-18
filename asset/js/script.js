@@ -1,9 +1,13 @@
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-
+try {
+  
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('expanded')
 })
+} catch (error) {
+  
+}
 
 const buttonOne = document.querySelector(".collapse.one");
 
