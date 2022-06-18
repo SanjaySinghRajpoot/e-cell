@@ -7948,3 +7948,7 @@ header.smaller:not(.header-bottom):not(.side-header) {
     color: white;
   }
 }
+.de-team-list p.lead {
+   
+    font-family: sans-serif;
+}
