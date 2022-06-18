@@ -4917,9 +4917,13 @@ width:100%;
 .picframe {
 	position: relative;
 	overflow: hidden;
+	border-width: 1rem;
 }
 .picframe img{
-	width:100%;
+	width:150%;
+	align-items: center;
+	padding-right: 20px;
+	border-radius: 2rem;
 }
 
 .picframe:hover .overlay-v{
@@ -7952,7 +7956,16 @@ header.smaller:not(.header-bottom):not(.side-header) {
    
     font-family: sans-serif;
 }
+
+#cent-gallery{
+	margin-left: 20rem;
+    width: 101%;
+
+}
+
 #section-portfolio {
+	/* margin-left: 9rem; */
+	align-items: center;
     background: #101010 !important;
     width: 101%;
     overflow: hidden;
