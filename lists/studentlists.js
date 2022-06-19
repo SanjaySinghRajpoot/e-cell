@@ -199,3 +199,20 @@ for (let i = 0; i < items.length; i++) {
     overlays[i].style.opacity = "0";
   };
 }
+// const body=document.getElementsByTagName('body')[0];
+// const wrapper=document.getElementById('wrapper');
+// const sectionsponsors = document.getElementById("section-sponsors");
+// // const slider = document.getElementsByClassName("tp-fullwidth-forcer");
+// // console.log(slider);
+// body.style.width=window.innerWidth;
+// wrapper.style.width=window.innerWidth;
+// // slider.style.width=window.innerWidth;
+// sectionsponsors.style.width=window.innerWidth;
+// window.addEventListener("resize", function () {
+//   console.log(window.innerWidth);
+//   // slider.style.width=window.innerWidth;
+//   body.style.width=window.innerWidth;
+//   wrapper.style.width=window.innerWidth;
+//   sectionsponsors.style.width=window.innerWidth;
+//   // check width
+// });
