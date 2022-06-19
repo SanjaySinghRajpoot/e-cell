@@ -8018,12 +8018,11 @@ header{
 }
 
 .di-small-2,.di-small {
-	display: none;
-	
+	display: none;	
 }
-body,#wrapper {
+/* body,#wrapper {
 	width: 150%;
-}
+} */
 .de-team-list img {
     width: 51%;
     height: 300px;
