@@ -374,6 +374,9 @@ for (let i = 0; i < items.length; i++) {
 //   sectionsponsors.style.width=window.innerWidth;
 //   // check width
 // });
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
 setTimeout(()=>{
   let x=document.getElementsByClassName(`dn`);
 for (let element of x) {
