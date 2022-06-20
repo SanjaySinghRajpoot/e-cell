@@ -381,4 +381,5 @@ for (let element of x) {
   element.style.display = "block";
 }
 document.getElementById(`loader`).style.display = "none";
+document.getElementsByTagName("html")[0].style.overflow="scroll";
 },4000)
