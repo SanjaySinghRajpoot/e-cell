@@ -8030,3 +8030,6 @@ body,html{
 	overflow: hidden;
 }
 
+.title,.name{
+	color:white;
+}
