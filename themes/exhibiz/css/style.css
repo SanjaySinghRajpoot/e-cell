@@ -8005,6 +8005,11 @@ header{
 .io{
 	z-index: 999;
 }
+.de-team-list img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
 @media (max-width: 760px){
 .group.three {
     align-items: flex-start;
@@ -8034,3 +8039,10 @@ header{
 	text-align: center;
 }
 
+.d ,.a ,.c{
+	color: black;
+}
+.d,.e,.b{
+    box-shadow: rgb(212 97 162 / 79%) 0px 0px 0px 100vmax inset  !important;
+    color: white;
+}
