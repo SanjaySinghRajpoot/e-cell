@@ -387,5 +387,5 @@ if(window.innerWidth<=760){
   document.getElementById("aGist").style.display="none";
 }
 document.getElementById(`loader`).style.display = "none";
-document.getElementsByTagName("html")[0].style.overflow="scroll";
+document.getElementsByTagName("html")[0].style.overflow="auto";
 },4000)
