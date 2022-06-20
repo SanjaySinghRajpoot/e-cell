@@ -7993,6 +7993,9 @@ header.smaller:not(.header-bottom):not(.side-header) {
 
 
 @media (max-width: 760px) {
+	#loader{
+		background-position: bottom;
+	}
 	#cent-gallery{
 		margin-left: 5rem;
 		width: 101%;
