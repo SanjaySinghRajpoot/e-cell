@@ -8046,3 +8046,11 @@ header{
     box-shadow: rgb(212 97 162 / 79%) 0px 0px 0px 100vmax inset  !important;
     color: white;
 }
+.bm ,.gm{
+	 box-shadow: inset 0 0 0 100vmax rgb(255 255 255 / 36%) !important;
+	 color:black;
+}
+.dm{
+	box-shadow: rgb(212 97 162 / 79%) 0px 0px 0px 100vmax inset  !important;
+    color: white;
+}
