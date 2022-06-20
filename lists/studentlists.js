@@ -2,7 +2,7 @@ let student2021 = [
   {
     ln: "pranav3105/",
     name: "Pranav Gupta",
-    post: " President, E-Cell",
+    post: " President",
     image: "Team2021/PranavSir.png",
   },
   {
@@ -81,7 +81,7 @@ let student2021 = [
     ln: "siddharth-pathak21/",
     name: "Siddharth Pathak",
     post: "Media Lead",
-    image: "Team2021/PranjalMam.jpg",
+    image: "Team2021/SiddharthSir.jpeg",
   },
   {
     ln: "ruchi-tetwal-a42b7b177/",
@@ -142,7 +142,7 @@ for (student of student2021) {
                                         									
                                         										<div class="social">
                                         										
-                                        										<a href="https://www.linkedin.com/in/${student.ln}"><i class="fa fa-linkedin fa-lg"></i></a>
+                                        										<a href="https://www.linkedin.com/in/${student.ln}" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
                                         									</div>
                                         									
                                                 </div>
@@ -156,7 +156,7 @@ let student2020 = [
   {
     ln: "bhatiaayush/",
     name: "Ayush Bhatia",
-    post: " President, E-Cell",
+    post: " President",
     image: "Team2020/AyushSir.jpg",
   },
   {
@@ -168,13 +168,13 @@ let student2020 = [
   {
     ln: "gaurav-patil-10336917a/",
     name: "Gaurav Patil",
-    post: "  Finance Head, E-Cell",
+    post: "Finance Head",
     image: "Team2020/GauravSir.jpeg",
   },
   {
     ln: "dhananjaypurohit/",
     name: "Dhananjay Purohit",
-    post: "Technical Head, E-Cell",
+    post: "Technical Head",
     image: "Team2021/DhananjaySir.png",
   },
   {
@@ -186,7 +186,7 @@ let student2020 = [
   {
     ln: "nikita-shrivastava-zs/",
     name: "Nikita Shrivastava",
-    post: "  Marketing Head, E-Cell",
+    post: "  Marketing Head",
     image: "Team2020/NikitaMam.jpeg",
   },
   {
@@ -198,19 +198,19 @@ let student2020 = [
   {
     ln: "pranav3105/",
     name: "Pranav Gupta",
-    post: "Design Lead, E-Cell",
+    post: "Design Lead",
     image: "Team2021/PranavSir.png",
   },
   {
     ln: "divanshu-basantani-91537517a/",
     name: "Divanshu Basantani",
-    post: "Events Lead, E-Cell",
+    post: "Events Lead",
     image: "Team2021/DivanshuSir.jpg",
   },
   {
     ln: "#",
     name: "Prabhleen Kaur",
-    post: " Content Lead, E-Cell",
+    post: " Content Lead",
     image: "Team2021/PrabhleenMam.png",
   },
   {
@@ -222,7 +222,7 @@ let student2020 = [
   {
     ln: "dheeraj-kumar-bakoriya-69998918b/",
     name: "Dheeraj Bakoriya",
-    post: " Media Lead, E-Cell",
+    post: " Media Lead",
     image: "Team2021/DheerajSir.jpg",
   },
 ];
@@ -237,12 +237,12 @@ for (student of student2020) {
                                                 </div>
                                                 <div class="team-desc">
                                                     <h3>${student.name}</h3>
-                                                    <p class="lead">${student.post}</p>
+                                                    <p class="lead">${student.post}, E-Cell</p>
                                                     <div class="small-border"></div>
                                         									
                                         										<div class="social">
                                         										
-                                        										<a href="https://www.linkedin.com/in/${student.ln}"><i class="fa fa-linkedin fa-lg"></i></a>
+                                        										<a href="https://www.linkedin.com/in/${student.ln}" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
                                         									</div>
                                         									
                                                 </div>
@@ -256,61 +256,61 @@ let student2019 = [
   {
     ln: "sourabh-yadav-collegementor/",
     name: "Sourabh Yadav",
-    post: "President, E-Cell",
+    post: "President",
     image: "Team2020/SourabhSir.jpg",
   },
   {
     ln: "sparshsadafal14/",
     name: "Sparsh Sadafal",
-    post: "Vice-President, E-Cell",
+    post: "Vice-President",
     image: "Team2020/SparshSir.JPG",
   },
   {
     ln: "bhatiaayush/",
     name: "Ayush Bhatia",
-    post: "Technical Head, E-Cell",
+    post: "Technical Head",
     image: "Team2020/AyushSir.jpg",
   },
   {
     ln: "gaurav-patil-10336917a/",
     name: "Gaurav Patil",
-    post: "Finance Head, E-Cell",
+    post: "Finance Head",
     image: "Team2020/GauravSir.jpeg",
   },
   {
     ln: "mansi-dalal-ba500718a/",
     name: "Mansi Dalal",
-    post: "Head of Public Relations,<br/> E-Cell",
+    post: "Head of Public Relations",
     image: "Team2020/MansiMam.jpeg",
   },
   {
     ln: "nikita-shrivastava-282415182/",
     name: "Nikita Shrivastava",
-    post: "Head of Public Relations,<br/> E-Cell",
+    post: "Head of Public Relations",
     image: "Team2020/NikitaMam.jpeg",
   },
   {
     ln: "#",
     name: "Rithik Pandita",
-    post: "Head of Event Management,<br/> E-Cell",
+    post: "Head of Event Management",
     image: "Team2020/RithikSir.JPG",
   },
   {
     ln: "#",
     name: "Adya Trisal",
-    post: "Head of Creative Writing,<br/> E-Cell",
+    post: "Head of Creative Writing",
     image: "Team2020/AdyaMam.jpeg",
   },
   {
     ln: "adarsh-agrawal-7448b599/",
     name: "Adarsh Agrawal",
-    post: "Head of Digital Marketing,<br/> E-Cell",
+    post: "Head of Digital Marketing",
     image: "Team2020/AdarshSir.jpeg",
   },
   {
     ln: "aishwarya-agrawal-67a355137/",
     name: "Aishwarya Agrawal",
-    post: "Head of Creative Writing, E-Cell",
+    post: "Head of Creative Writing",
     image: "Team2020/AishwaryaMam.jpeg",
   },
   //   {
@@ -330,11 +330,11 @@ for (student of student2019) {
                                                 </div>
                                                 <div class="team-desc">
                                                     <h3>${student.name}</h3>
-                                                    <p class="lead">${student.post}</p>
+                                                    <p class="lead">${student.post}, E-Cell</p>
                                                     <div class="small-border"></div>
                                         									<div class="social">
                                         									
-                                        										<a href="https://www.linkedin.com/in/${student.ln}"><i class="fa fa-linkedin fa-lg"></i></a>
+                                        										<a href="https://www.linkedin.com/in/${student.ln} target="_blank""><i class="fa fa-linkedin fa-lg"></i></a>
                                         									</div>
                                                 </div>
                                             </div>
