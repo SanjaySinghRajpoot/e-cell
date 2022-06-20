@@ -374,3 +374,11 @@ for (let i = 0; i < items.length; i++) {
 //   sectionsponsors.style.width=window.innerWidth;
 //   // check width
 // });
+setTimeout(()=>{
+  let x=document.getElementsByClassName(`dn`);
+for (let element of x) {
+  console.log(element);
+  element.style.display = "block";
+}
+document.getElementById(`loader`).style.display = "none";
+},4000)
