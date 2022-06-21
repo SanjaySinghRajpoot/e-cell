@@ -8026,9 +8026,6 @@ header.smaller:not(.header-bottom):not(.side-header) {
 	box-shadow: rgb(212 97 162 / 79%) 0px 0px 0px 100vmax inset  !important;
     color: white;
 }
-body,html{
-	overflow: hidden;
-}
 
 .title,.name{
 	color:white;

@@ -375,6 +375,7 @@ for (let i = 0; i < items.length; i++) {
 //   // check width
 // });
 window.onbeforeunload = function () {
+document.getElementsByTagName("html")[0].style.overflow = "hidden";
   window.scrollTo(0, 0);
 };
 setTimeout(()=>{
