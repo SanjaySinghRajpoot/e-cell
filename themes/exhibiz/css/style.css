@@ -7706,7 +7706,7 @@ header.smaller:not(.header-bottom):not(.side-header) {
   display: block;
   height: 4px;
   width: 40px;
-  background-color: #620df6;
+  background-color: #e5177c;
   margin: 20px auto;
 }
 
@@ -7995,12 +7995,39 @@ header.smaller:not(.header-bottom):not(.side-header) {
 
 
 @media (max-width: 760px) {
+	#loader{
+		background-position: bottom;
+	}
 	#cent-gallery{
 		margin-left: 2rem;
 		width: 101%;
 	
 	}
+	.xyz{
+	position: absolute;
+	height: 300px !important;
+	width:300px !important; 
+	left: -44px !important;
 }
+#xx{
+	top: 320px;
+	left: -20px !important;
+}
+#xy{
+	    left: -6px !important;
+}
+#gallery{
+	height:640px;
+}
+}
+
+
+
+
+.de-team-list {
+	text-align: center;
+}
+
 
 .d ,.a ,.c{
 	color: black;
