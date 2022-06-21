@@ -8003,10 +8003,26 @@ header.smaller:not(.header-bottom):not(.side-header) {
 		width: 101%;
 	
 	}
+	.xyz{
+	position: absolute;
+	height: 300px !important;
+	width:300px !important; 
+	left: -44px !important;
+}
+#xx{
+	top: 320px;
+	left: -20px !important;
+}
+#xy{
+	    left: -6px !important;
+}
+#gallery{
+	height:640px;
+}
 }
 
 
-}
+
 .de-team-list {
 	text-align: center;
 }

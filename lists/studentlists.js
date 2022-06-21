@@ -374,19 +374,19 @@ for (let i = 0; i < items.length; i++) {
 //   sectionsponsors.style.width=window.innerWidth;
 //   // check width
 // });
-window.onbeforeunload = function () {
-document.getElementsByTagName("html")[0].style.overflow = "hidden";
-  window.scrollTo(0, 0);
-};
-setTimeout(()=>{
-  let x=document.getElementsByClassName(`dn`);
-for (let element of x) {
-  console.log(element);
-  element.style.display = "block";
-}
-if(window.innerWidth<=760){
-  document.getElementById("aGist").style.display="none";
-}
-document.getElementById(`loader`).style.display = "none";
-document.getElementsByTagName("html")[0].style.overflow="auto";
-},4000)
+// window.onbeforeunload = function () {
+// document.getElementsByTagName("html")[0].style.overflow = "hidden";
+//   window.scrollTo(0, 0);
+// };
+// setTimeout(()=>{
+//   let x=document.getElementsByClassName(`dn`);
+// for (let element of x) {
+//   console.log(element);
+//   element.style.display = "block";
+// }
+// if(window.innerWidth<=760){
+//   document.getElementById("aGist").style.display="none";
+// }
+// document.getElementById(`loader`).style.display = "none";
+// document.getElementsByTagName("html")[0].style.overflow="auto";
+// },4000)
