@@ -8001,7 +8001,7 @@ header.smaller:not(.header-bottom):not(.side-header) {
 	#cent-gallery{
 		margin-left: 2rem;
 		width: 101%;
-	
+	padding-left: 10%;
 	}
 	.xyz{
 	position: absolute;
@@ -8011,10 +8011,10 @@ header.smaller:not(.header-bottom):not(.side-header) {
 }
 #xx{
 	top: 320px;
-	left: -20px !important;
+	left: 8% !important;
 }
 #xy{
-	    left: -6px !important;
+	    left: 8% !important;
 }
 #gallery{
 	height:640px;
@@ -8047,4 +8047,81 @@ header.smaller:not(.header-bottom):not(.side-header) {
 
 .title,.name{
 	color:white;
+}
+body{
+	overflow-x: hidden;
+}
+@media (max-width:700px) {
+	.wm.dark.wm-border {
+    font-size: 5em;
+}
+#section-testimonials{
+	padding-top: 0px !important;
+	height: 300px !important;
+}
+}
+.di-big{
+		height: 80vh ;
+		width: 40vw ;
+	}
+		.di-small {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 75%;
+    left: -4%;
+    z-index: 1;
+}
+.di-small-2 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    right: -10%;
+    bottom: 84%;
+    z-index: -1;
+}
+@media (max-width:1000px) {
+	.di-big{
+		height: 60vw ;
+		width: 60vw ;
+	}
+	.di-small {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 75%;
+    left: -4%;
+    z-index: 1;
+}
+.di-small-2 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    right: -10%;
+    bottom: 74%;
+    z-index: -1;
+}
+.pf_full_width .item{
+	float:left;
+	width:80vw !important;
+	}
+	.picframe{
+		width:100%;
+	}
+}
+@media (max-width:560px) {
+	.de-team-list img {
+    FONT-WEIGHT: 500;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 100%;
+	}
+}
+@media (min-width:560px) and (max-width:760px) {
+	.de-team-list img {
+    FONT-WEIGHT: 500;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 100%;
+	}
 }
