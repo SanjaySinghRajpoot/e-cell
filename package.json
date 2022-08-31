@@ -1,0 +1,23 @@
+{
+  "name": "e-summit",
+  "version": "1.0.0",
+  "description": "This website is developed by E-cell IET-DAVV development team.",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohit-Aasirwal/e-summit.git"
+  },
+  "author": "Mohit Aasirwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohit-Aasirwal/e-summit/issues"
+  },
+  "homepage": "https://github.com/Mohit-Aasirwal/e-summit#readme",
+  "dependencies": {
+    "vite": "^3.0.9"
+  }
+}
