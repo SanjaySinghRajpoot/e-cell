@@ -5758,10 +5758,16 @@ padding-bottom:0;
 p{
 	margin-bottom:20px;
 }
-
+#welcome{
+	font-weight: lighter;
+}
 
 .bg-grey{
 	background:#f5f5f5;
+}
+.grey-hover{
+	position: relative;
+	left: 0;
 }
 
 .no-bottom .col-md-12 {
@@ -6834,7 +6840,6 @@ display:table;
 	line-height: .75em;
 }
 
-
 /* ================================================== */
 /* R E S P O N S I V E */
 /* ================================================== */
@@ -6938,7 +6943,6 @@ display:table;
 	left:0;
 	width:100%;
 	}
-
 	header.side-header #logo .logo{
 	display:none;
 	}
@@ -7766,6 +7770,9 @@ header.smaller:not(.header-bottom):not(.side-header) {
     width: auto;
   }
 }
+
+
+}
 #aGist {
   position: relative;
   margin: 60px auto 100px;
@@ -7955,7 +7962,7 @@ header.smaller:not(.header-bottom):not(.side-header) {
   }
 }
 .de-team-list p.lead {
-   
+
     font-family: sans-serif;
 }
 
@@ -8006,7 +8013,7 @@ header.smaller:not(.header-bottom):not(.side-header) {
 	.xyz{
 	position: absolute;
 	height: 300px !important;
-	width:300px !important; 
+	width:300px !important;
 	left: -44px !important;
 }
 #xx{
